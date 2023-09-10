@@ -5,7 +5,7 @@ public class Teste {
     public static void main(String[] args) {
         
         Cliente cliente = new Cliente(123456, 453124568, 953762153, 123456, "Rodolfo", "XDS-123");
-        Guincho guincho = new Guincho( "Guincho de Arraste Torre 25T", "ABC-123", 1000, 50000, 5000, 800);
+        Guincho guincho = new Guincho("ABC-123", "Guincho de Arraste Torre 25T", 1000, 50000, 5000, 800);
         TipoVeiculo tipoVeiculo = new TipoVeiculo(123456, 453124568, 953762153, 123456, "Pesado", "TED-123", "Onibus", 100, 80, 50);
         VeiculoCliente veiculoCliente = new VeiculoCliente(123456, 453124568, 953762153, 123456, "ABC-123", "Modelo XYZ", "Pesado", 100, 80, 50, "Onibus", "JBDFUVI4785FNHFDHY");
         Rastreio rastreio = new Rastreio(100125, 123789, "ABC-123", 123.45, 123, "Rua Gloria Maria, 420");
